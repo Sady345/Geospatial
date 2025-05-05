@@ -1,0 +1,38 @@
+/* FIRST SLIDE ONLY – Title slide in teal with white text */
+.remark-slide:nth-of-type(1),
+.remark-slide:nth-of-type(1) .remark-slide-content {
+  background-color: #03A696 !important;
+  color: white !important;
+}
+.remark-slide:nth-of-type(1) h1,
+.remark-slide:nth-of-type(1) h2,
+.remark-slide:nth-of-type(1) h3 {
+  color: white !important;
+}
+
+/* ALL OTHER SLIDES – white background and navy text */
+.remark-slide:not(:nth-of-type(1)),
+.remark-slide:not(:nth-of-type(1)) .remark-slide-content {
+  background-color: #ffffff !important;
+  color: #1E3A8A !important;
+}
+.remark-slide:not(:nth-of-type(1)) h1,
+.remark-slide:not(:nth-of-type(1)) h2,
+.remark-slide:not(:nth-of-type(1)) h3 {
+  color: #1E3A8A !important;
+}
+
+/* Panel tabs */
+.panelset .panel-tabs {
+  background-color: #ffffff;
+  border-bottom: 2px solid #ccc;
+}
+.panelset .panel-tab {
+  color: #1E3A8A;
+  background-color: transparent;
+  font-weight: bold;
+}
+.panelset .panel-tab.is-active {
+  background-color: #1E3A8A !important;
+  color: white !important;
+}
